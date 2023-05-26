@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Questo file è stato generato dall'Eclipse Implementation of JAXB, v3.0.0 
+Vedere https://eclipse-ee4j.github.io/jaxb-ri 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2023.05.26 alle 01:45:06 AM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.codingspace.it/calculatorws">
+    <schemaBindings map="false">
+      <package name="it.codingspace.calculatorws.infra"/>
+    </schemaBindings>
+    <bindings scd="tns:Add">
+      <class ref="it.codingspace.calculatorws.infra.Add"/>
+    </bindings>
+    <bindings scd="tns:AddResponse">
+      <class ref="it.codingspace.calculatorws.infra.AddResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
